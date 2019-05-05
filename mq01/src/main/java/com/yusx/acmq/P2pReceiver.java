@@ -14,7 +14,7 @@ public class P2pReceiver {
         MessageConsumer messageConsumer = null;
         Message message = null;
 
-                String broker_url = "tcp://47.92.239.77:61616";
+        String broker_url = "tcp://47.92.239.77:61616";
         String queue_name = "myQueue";
         String msg = "你好啊，梦想家";
 
