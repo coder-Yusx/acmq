@@ -1,17 +1,18 @@
-package com.yusx.acmq;
+package com.yusx.acmq.queue;
 
 import org.apache.activemq.ActiveMQConnectionFactory;
 
 import javax.jms.*;
-
-public class P2pSender {
+//自动确认
+public class QueueReceiver01 {
 
     public static void main(String[] args) {
 
         Connection connection = null;
         Session session = null;
         Destination destination = null;
-        MessageProducer messageProducer = null;
+        MessageConsumer messageConsumer = null;
+        TextMessage message = null;
 
         String broker_url = "tcp://47.92.239.77:61616";
         String queue_name = "myQueue";
@@ -22,23 +23,33 @@ public class P2pSender {
         try {
             connection = connectionFactory.createConnection();
 
-            session = connection.createSession(Boolean.FALSE,Session.AUTO_ACKNOWLEDGE);
+            session=connection.createSession(Boolean.FALSE,Session.AUTO_ACKNOWLEDGE);
 
             destination = session.createQueue(queue_name);
 
-            messageProducer = session.createProducer(destination);
+            messageConsumer = session.createConsumer(destination);
 
-            TextMessage textMessage = session.createTextMessage(msg);
+            connection.start();
 
-            messageProducer.send(textMessage);
+            //message = messageConsumer.receive();
 
+            //轮训实现多次消费
+            while (true){
+                message = (TextMessage) messageConsumer.receive();
+                if (null != message) {
+                    System.out.println("收到消息" + message.getText());
+                } else {
+                    break;
+                }
+            }
             System.in.read();
         } catch (Exception e) {
             e.printStackTrace();
         }finally {
             try {
-                if (null != messageProducer) {
-                    messageProducer.close();
+                //关闭连接释放资源
+                if (null != messageConsumer) {
+                    messageConsumer.close();
                 }
                 if (null != session) {
                     session.close();
@@ -46,8 +57,8 @@ public class P2pSender {
                 if (null != connection) {
                     connection.close();
                 }
-            }catch (Exception e){
-
+            } catch (JMSException e) {
+                e.printStackTrace();
             }
         }
     }

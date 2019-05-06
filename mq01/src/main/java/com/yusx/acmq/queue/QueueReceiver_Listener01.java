@@ -1,44 +1,42 @@
-package com.yusx.acmq;
+package com.yusx.acmq.queue;
 
 import org.apache.activemq.ActiveMQConnectionFactory;
 
 import javax.jms.*;
-
-public class P2pReceiver {
+//自动确认+消息监听
+public class QueueReceiver_Listener01 {
 
     public static void main(String[] args) {
 
+        ConnectionFactory connectionFactory = null;
         Connection connection = null;
         Session session = null;
         Destination destination = null;
         MessageConsumer messageConsumer = null;
         Message message = null;
 
+
         String broker_url = "tcp://47.92.239.77:61616";
         String queue_name = "myQueue";
-        String msg = "你好啊，梦想家";
-
-        ConnectionFactory connectionFactory = new ActiveMQConnectionFactory(broker_url);
 
         try {
+            connectionFactory = new ActiveMQConnectionFactory(broker_url);
             connection = connectionFactory.createConnection();
-
-            session=connection.createSession(Boolean.FALSE,Session.AUTO_ACKNOWLEDGE);
-
+            session = connection.createSession(Boolean.FALSE, Session.AUTO_ACKNOWLEDGE);
             destination = session.createQueue(queue_name);
-
             messageConsumer = session.createConsumer(destination);
-
             connection.start();
+            messageConsumer.setMessageListener(new MessageListener() {
+                @Override
+                public void onMessage(Message message) {
+                    try {
+                        System.out.println("接收到的消息为"+((TextMessage)message).getText());
+                    }catch (Exception e){
+                        e.printStackTrace();
+                    }
 
-            message = messageConsumer.receive();
-
-            //判断消息的类型
-            if (message instanceof TextMessage) { //判断是否是文本消息
-                String text = ((TextMessage) message).getText();
-                System.out.println("接收到的消息内容是：" + text);
-            }
-
+                }
+            });
             System.in.read();
         } catch (Exception e) {
             e.printStackTrace();

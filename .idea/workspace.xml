@@ -4,9 +4,10 @@
     <list default="true" id="1426e3f1-5246-4429-bdc2-4fa9d4ee6a42" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MQ/activemq/activemq基础知识.doc" beforeDir="false" afterPath="$PROJECT_DIR$/MQ/activemq/activemq基础知识.doc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MQ/activemq/~$tivemq基础知识.doc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/acmq.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mq01/src/main/java/com/yusx/acmq/P2pReceiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/mq01/src/main/java/com/yusx/acmq/P2pReceiver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mq01/src/main/java/com/yusx/acmq/P2pReceiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/mq01/src/main/java/com/yusx/acmq/queue/QueueReceiver01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mq01/src/main/java/com/yusx/acmq/P2pSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/mq01/src/main/java/com/yusx/acmq/queue/QueueSender01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mq01/target/classes/com/yusx/acmq/P2pReceiver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mq01/target/classes/com/yusx/acmq/P2pSender.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -19,35 +20,65 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mq01/src/main/java/com/yusx/acmq/queue/QueueSender01.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" column="44" lean-forward="true" selection-start-line="6" selection-end-line="6" selection-end-column="6" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mq01/src/main/java/com/yusx/acmq/queue/QueueSender02.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="9" lean-forward="true" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mq01/src/main/java/com/yusx/acmq/queue/QueueReceiver02.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="305">
+              <caret line="48" column="38" lean-forward="true" selection-start-line="48" selection-start-column="38" selection-end-line="48" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mq01/src/main/java/com/yusx/acmq/queue/QueueReceiver_Listener01.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="10" column="51" lean-forward="true" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mq01/src/main/java/com/yusx/acmq/queue/QueueSender03.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/mq01/src/main/java/com/yusx/acmq/P2pSender.java">
+        <entry file="file://$PROJECT_DIR$/mq01/src/main/java/com/yusx/acmq/queue/QueueReceiver03.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="444">
-              <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mq01/src/main/java/com/yusx/acmq/P2pReceiver.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="520">
-              <caret line="61" column="1" lean-forward="true" selection-start-line="6" selection-end-line="61" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mq01/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="36" column="21" lean-forward="true" selection-start-line="32" selection-start-column="8" selection-end-line="36" selection-end-column="21" />
+            <state relative-caret-position="171">
+              <caret line="11" column="29" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -71,6 +102,17 @@
         <option value="$PROJECT_DIR$/mq01/pom.xml" />
         <option value="$PROJECT_DIR$/mq01/src/main/java/com/yusx/acmq/P2pSender.java" />
         <option value="$PROJECT_DIR$/mq01/src/main/java/com/yusx/acmq/P2pReceiver.java" />
+        <option value="$PROJECT_DIR$/mq01/src/main/java/com/yusx/acmq/P2pReceiver_Listener.java" />
+        <option value="$PROJECT_DIR$/mq01/src/main/java/com/yusx/acmq/QueueReceiver.java" />
+        <option value="$PROJECT_DIR$/mq01/src/main/java/com/yusx/acmq/QueueSender.java" />
+        <option value="$PROJECT_DIR$/mq01/src/main/java/com/yusx/acmq/queue/QueueSender.java" />
+        <option value="$PROJECT_DIR$/mq01/src/main/java/com/yusx/acmq/queue/QueueSender01.java" />
+        <option value="$PROJECT_DIR$/mq01/src/main/java/com/yusx/acmq/queue/QueueReceiver01.java" />
+        <option value="$PROJECT_DIR$/mq01/src/main/java/com/yusx/acmq/queue/QueueReceiver_Listener01.java" />
+        <option value="$PROJECT_DIR$/mq01/src/main/java/com/yusx/acmq/queue/QueueSender02.java" />
+        <option value="$PROJECT_DIR$/mq01/src/main/java/com/yusx/acmq/queue/QueueReceiver02.java" />
+        <option value="$PROJECT_DIR$/mq01/src/main/java/com/yusx/acmq/queue/QueueSender03.java" />
+        <option value="$PROJECT_DIR$/mq01/src/main/java/com/yusx/acmq/queue/QueueReceiver03.java" />
       </list>
     </option>
   </component>
@@ -93,7 +135,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -134,24 +175,30 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="acmq" type="462c0819:PsiDirectoryNode" />
+              <item name="queue" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557064890925" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557136928970" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.yusx.acmq.queue" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -165,13 +212,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.P2pReceiver">
-    <configuration name="P2pReceiver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yusx.acmq.P2pReceiver" />
+  <component name="RunManager" selected="Application.QueueReceiver03">
+    <configuration name="QueueReceiver02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yusx.acmq.queue.QueueReceiver02" />
       <module name="mq01" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yusx.acmq.*" />
+          <option name="PATTERN" value="com.yusx.acmq.queue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -179,12 +226,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P2pSender" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yusx.acmq.P2pSender" />
+    <configuration name="QueueReceiver03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yusx.acmq.queue.QueueReceiver03" />
       <module name="mq01" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yusx.acmq.*" />
+          <option name="PATTERN" value="com.yusx.acmq.queue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QueueReceiver_Listener01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yusx.acmq.queue.QueueReceiver_Listener01" />
+      <module name="mq01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yusx.acmq.queue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QueueSender01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yusx.acmq.queue.QueueSender01" />
+      <module name="mq01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yusx.acmq.queue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QueueSender03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yusx.acmq.queue.QueueSender03" />
+      <module name="mq01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yusx.acmq.queue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -194,8 +280,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.P2pReceiver" />
-        <item itemvalue="Application.P2pSender" />
+        <item itemvalue="Application.QueueReceiver03" />
+        <item itemvalue="Application.QueueSender03" />
+        <item itemvalue="Application.QueueReceiver_Listener01" />
+        <item itemvalue="Application.QueueSender01" />
+        <item itemvalue="Application.QueueReceiver02" />
       </list>
     </recent_temporary>
   </component>
@@ -211,17 +300,18 @@
       <updated>1557024250369</updated>
       <workItem from="1557024254511" duration="4545000" />
       <workItem from="1557053228124" duration="3393000" />
+      <workItem from="1557109026492" duration="9770000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7938000" />
+    <option name="totallyTimeSpent" value="17708000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-8" y="-8" width="1616" height="1176" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1816354" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20501286" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -231,8 +321,8 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3298731" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32917467" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39923224" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -269,28 +359,69 @@
     <entry file="jar://E:/repository/org/apache/activemq/activemq-all/5.15.9/activemq-all-5.15.9.jar!/org/apache/activemq/ActiveMQConnectionFactory.class" />
     <entry file="file://$PROJECT_DIR$/mq01/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="36" column="21" lean-forward="true" selection-start-line="32" selection-start-column="8" selection-end-line="36" selection-end-column="21" />
+        <state relative-caret-position="684">
+          <caret line="36" column="21" selection-start-line="32" selection-start-column="8" selection-end-line="36" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mq01/src/main/java/com/yusx/acmq/P2pReceiver.java">
+    <entry file="file://$PROJECT_DIR$/mq01/src/main/java/com/yusx/acmq/queue/QueueReceiver01.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="61" column="1" lean-forward="true" selection-start-line="6" selection-end-line="61" selection-end-column="1" />
+        <state relative-caret-position="95">
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mq01/src/main/java/com/yusx/acmq/P2pSender.java">
+    <entry file="file://$PROJECT_DIR$/mq01/src/main/java/com/yusx/acmq/queue/QueueSender02.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+        <state relative-caret-position="114">
+          <caret line="6" column="9" lean-forward="true" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mq01/src/main/java/com/yusx/acmq/queue/QueueReceiver02.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="48" column="38" lean-forward="true" selection-start-line="48" selection-start-column="38" selection-end-line="48" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mq01/src/main/java/com/yusx/acmq/queue/QueueSender01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="44" lean-forward="true" selection-start-line="6" selection-end-line="6" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mq01/src/main/java/com/yusx/acmq/queue/QueueReceiver_Listener01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="51" lean-forward="true" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mq01/src/main/java/com/yusx/acmq/queue/QueueSender03.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mq01/src/main/java/com/yusx/acmq/queue/QueueReceiver03.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="11" column="29" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="29" />
         </state>
       </provider>
     </entry>
