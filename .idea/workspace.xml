@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1426e3f1-5246-4429-bdc2-4fa9d4ee6a42" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MQ/activemq/activemq基础知识.doc" beforeDir="false" afterPath="$PROJECT_DIR$/MQ/activemq/activemq基础知识.doc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MQ/activemq/~$tivemq基础知识.doc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/acmq.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mq01/src/main/java/com/yusx/acmq/P2pReceiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/mq01/src/main/java/com/yusx/acmq/P2pReceiver.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -22,8 +18,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mq01/src/main/java/com/yusx/acmq/P2pSender.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="444">
-              <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+            <state relative-caret-position="578">
+              <caret line="44" column="17" lean-forward="true" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -34,8 +30,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mq01/src/main/java/com/yusx/acmq/P2pReceiver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="520">
-              <caret line="61" column="1" lean-forward="true" selection-start-line="6" selection-end-line="61" selection-end-column="1" />
+            <state relative-caret-position="1121">
+              <caret line="61" column="1" selection-start-line="6" selection-end-line="61" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -46,8 +42,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mq01/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="36" column="21" lean-forward="true" selection-start-line="32" selection-start-column="8" selection-end-line="36" selection-end-column="21" />
+            <state relative-caret-position="684">
+              <caret line="36" column="21" selection-start-line="32" selection-start-column="8" selection-end-line="36" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -93,7 +89,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -127,26 +123,17 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="acmq" type="b2602c69:ProjectViewProjectNode" />
-              <item name="acmq" type="462c0819:PsiDirectoryNode" />
-              <item name="mq01" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="acmq" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557064890925" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557067166437" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -210,18 +197,18 @@
       <option name="presentableId" value="Default" />
       <updated>1557024250369</updated>
       <workItem from="1557024254511" duration="4545000" />
-      <workItem from="1557053228124" duration="3393000" />
+      <workItem from="1557053228124" duration="3984000" />
+      <workItem from="1557144933250" duration="1157000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7938000" />
+    <option name="totallyTimeSpent" value="9686000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1816354" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18364611" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -267,30 +254,30 @@
       </provider>
     </entry>
     <entry file="jar://E:/repository/org/apache/activemq/activemq-all/5.15.9/activemq-all-5.15.9.jar!/org/apache/activemq/ActiveMQConnectionFactory.class" />
-    <entry file="file://$PROJECT_DIR$/mq01/pom.xml">
+    <entry file="file://$PROJECT_DIR$/mq01/src/main/java/com/yusx/acmq/P2pSender.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="36" column="21" lean-forward="true" selection-start-line="32" selection-start-column="8" selection-end-line="36" selection-end-column="21" />
+        <state relative-caret-position="578">
+          <caret line="44" column="17" lean-forward="true" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mq01/src/main/java/com/yusx/acmq/P2pReceiver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="61" column="1" lean-forward="true" selection-start-line="6" selection-end-line="61" selection-end-column="1" />
+        <state relative-caret-position="1121">
+          <caret line="61" column="1" selection-start-line="6" selection-end-line="61" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mq01/src/main/java/com/yusx/acmq/P2pSender.java">
+    <entry file="file://$PROJECT_DIR$/mq01/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="684">
+          <caret line="36" column="21" selection-start-line="32" selection-start-column="8" selection-end-line="36" selection-end-column="21" />
         </state>
       </provider>
     </entry>
